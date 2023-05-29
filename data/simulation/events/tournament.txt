@@ -1,0 +1,11 @@
+[config]
+Name = tournament
+Texture = tournament.png
+GUISound = DM4_Credit Rating Upgraded.wav
+OnImplement = CreateGrudge(tournament,-0.900,0.930);CreateGrudge(_All_,0.050,0.80);CreateGrudge(Tourism,0.100,0.80);CreateGrudge(TradeUnionist,-0.100,0.80);
+
+[influences]
+0 = AbsoluteMonarchy,0+(0.8*x)
+1 = WorkSafetyLaw,-0.15-(0.7*x)
+
+

@@ -1,0 +1,12 @@
+[dilemma]
+name = punitiveexpedition
+
+[influences]
+0 = PeasantRiots,0.5+(x*0.5)
+1 = MilitarySpending,-0.4+(0.4*x)
+
+[option0]
+OnImplement = CreateGrudge(PeasantRiots,-1,0.98);CreateGrudge(Population,-0.01,0.9);CreateGrudge(_All_,-0.1,0.9);CreateGrudge(Farmers,-0.5,0.95);CreateGrudge(ForeignRelations,-0.25,0.95);CreateGrudge(_percept_compassion,-0.15,0.95);CreateGrudge(Farmers_freq,-0.05,0.9);
+
+[option1]
+OnImplement = CreateGrudge(_percept_strength,-0.1,0.95);

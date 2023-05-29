@@ -1,0 +1,13 @@
+[dilemma]
+name = grandcoronation
+
+[influences]
+0 = AbsoluteMonarchy,0+(1*x)
+1 = AbsoluteMonarchy,0+(1*x)
+2 = AbsoluteMonarchy,0+(1*x)
+
+[option0]
+OnImplement = CreateGrudge(_All_,0.1,0.9);CreateGrudge(Religious,0.2,0.9);CreateGrudge(Patriot,-0.2,0.9);
+
+[option1]
+OnImplement = CreateGrudge(_All_,0.1,0.9);CreateGrudge(Religious,-0.2,0.9);CreateGrudge(Patriot,0.2,0.9);CreateGrudge(_percept_strength,0.1,0.9);CreateGrudge(ForeignRelations,-0.1,0.9);

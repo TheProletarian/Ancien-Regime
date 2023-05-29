@@ -1,0 +1,6 @@
+[config]
+name = ancien_regime
+path = C:\Users\user\Documents/My Games/democracy4/mods/ancien_regime
+guiname = Ancien Regime
+author = HamHacker
+description = Modern problems require Medieval solutions

@@ -1,0 +1,11 @@
+[dilemma]
+name = questionofproperty
+
+[influences]
+0 = EstatesSystem,0.5+(0.5*x)
+
+[option0]
+OnImplement = CreateGrudge(Wealthy,0.25,0.97);CreateGrudge(Farmers,-0.2,0.97);CreateGrudge(Socialist,-0.25,0.97);CreateGrudge(AristocratsInfluence,0.2,1);
+
+[option1]
+OnImplement = CreateGrudge(Wealthy,-0.2,0.97);CreateGrudge(Farmers,0.1,0.97);CreateGrudge(Socialist,0.2,0.97);

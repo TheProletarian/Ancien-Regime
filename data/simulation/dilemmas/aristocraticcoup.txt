@@ -1,0 +1,12 @@
+[dilemma]
+name = aristocraticcoup
+
+[influences]
+0 = AristocratsInfluence,1*(x^2)
+1 = Stability,0-(0.3*x)
+
+[option0]
+OnImplement = CreateGrudge(AbsoluteMonarchy,1,1);CreateGrudge(Stability,-0.2,0.75);CreateGrudge(Liberal,-0.3,0.9);CreateGrudge(Wealthy,0.3,0.9);CreateGrudge(ForeignRelations,-0.5,0.95);
+
+[option1]
+OnImplement = CreateGrudge(AristocratsInfluence,-0.25,0.95);CreateGrudge(Wealthy,-0.4,0.9);CreateGrudge(Liberal,0.2,0.9);
