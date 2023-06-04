@@ -1,7 +1,7 @@
 [config]
 Name = mercenarywarcrimes
 Texture = mercenarywarcrimes.png
-GUISound = DM4_Credit Rating Upgraded.wav
+GUISound = DM4_Gameover_Firefight.wav
 OnImplement = CreateGrudge(mercenarywarcrimes,-0.900,0.930);CreateGrudge(_All_,-0.060,0.90);CreateGrudge(ForeignRelations,-0.200,0.95);CreateGrudge(EthnicMinorities,-0.100,0.92);
 
 [influences]
