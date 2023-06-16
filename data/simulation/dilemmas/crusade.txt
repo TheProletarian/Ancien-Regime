@@ -1,0 +1,15 @@
+[dilemma]
+name = crusade
+
+[influences]
+0 = _prereq_,MilitaryOrder
+1 = MilitaryOrder,0.2+(0.8*x)
+2 = _default_,0.33+(0*x)
+3 = _year,0+(0.025*x)
+4 = _winning_,-0.2+(0.4*x)
+
+[option0]
+OnImplement = CreateGrudge(CrusadeOnGoing,1,1);CreateGrudge(Liberal,-0.3,0.95);CreateGrudge(ForeignRelations,-0.1,0.95);CreateGrudge(_percept_strength,0.2,0.95);CreateGrudge(Religious,0.2,0.95);CreateGrudge(Prestige,0.05,0.95);
+
+[option1]
+OnImplement = CreateGrudge(_percept_strength,-0.1,0.95);CreateGrudge(Religious,-0.2,0.95);CreateGrudge(prestige,-0.1,0.95);

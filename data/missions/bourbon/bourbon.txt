@@ -1,0 +1,158 @@
+[config]
+currency = "₣"
+population = 35419
+economic_cycle_start = 0.2
+min_income = 0
+max_income = 155000
+name  = bourbon
+names_file = "data/names/bourbonnames.txt"
+flag = "flag_bourbon.png"
+map = "map_bourbon.svg"
+GUID = 1
+fx_rate_to_pound = 1
+apathy = 0.42
+starting_debt = 725000
+min_gdp = 900000
+max_gdp = 3000000
+wealth_mod = 3.736
+
+
+[policies]
+AbortionLaw = 0.25
+AgricultureSubsidies = 0.4
+AirlineTax = 0.04
+AlcoholLaw = 0.75
+AlcoholTax = 0.55
+ArmedPolice = 0.5
+ArtsSubsidies = 0.15
+bantobacco = 0.33
+BorderControls = 0.8
+BusLanes = 0.5
+BusSubsidies = 0.25
+CapitalGainsTax = 0.12
+CarEmmissionsLimits = 0.1
+CCTVCameras = 0.4
+CharityTaxRelief = 0.55
+ChildBenefit = 0.22
+CitizenshipTests = 0.75
+CleanEnergySubsidies = 0.15
+CommunityPolicing = 0.15
+CompulsoryForeignLanguageClasses = 0.5
+ConsumerRights = 0.3
+CompulsoryFoodLabelling = 0.7
+CorporationTax = 0.32
+Creationism = 0.3
+DisabilityBenefit = 0.45
+DrugEnforcement = 0.8
+EnterpriseInvestmentScheme = 0.8
+ExecutiveTermLength = 0.5
+ExecutiveTermLimit = 1.0
+FoodStandards = 0.6
+ForeignAid = 1
+FreeSchoolMeals = 0.35
+GameHunting = 0.85
+GenderDiscriminationAct = 0.25
+GatedCommunities = 0.4
+GeneralMediaCensorship = 0.2
+HandgunLaws = 0.75
+IDCards = 0.25
+ImportTarrifs = 0.15
+IncomeTax = 0.55
+InheritanceTax = 0.18
+IntellectualPropertyRights = 0.55
+IntelligenceServices = 0.6
+InternetCensorship = 0.75
+JudiciaryIndependence = 0.45
+JunkFoodTax = 0.5
+LabourLaws = 0.28
+LegalAid = 0.25
+LimitAutomatedTrading = 0.25
+MarriedTaxAllowance = 0.85
+MicrogenerationGrants = 0.25
+MilitarySpending = 0.65
+MinimumWage = 0.55
+MortgageTaxRelief = 0.25
+Narcotics = 0
+NuclearFission = 0.5
+NuclearWeapons = 0.66
+OrganicSubsidy = 0.55
+OilDrillingSubsidy = 0.42
+PayrollTax = 0.75
+PetrolTax = 0.28
+PoliceForce = 0.75
+PollutionControls = 0.45
+PressFreedom = 0.66
+PrisonerTagging = 0.25
+PrisonRegime = 0.8
+Prisons = 0.4
+PhoneTapping = 0.25
+PropertyTax = 0.32
+PublicLibraries = 0.35
+RaceDiscriminationAct = 0.25
+RacialProfiling = 0.55
+RareEarthRefinement = 0.18
+Reforestation = 0.42
+RetirementAge = 0.66
+RoadBuilding = 0.42
+RoboticsResearch = 0.3
+SalesTax = 0.58
+SchoolBuses = 0.45
+ScienceFunding = 0.75
+SelectiveSchooling = 0.8
+SmartMeterProgram = 0.25
+SocialCare = 0.18
+StateBroadcaster = 0.25
+StateEnergy = 0.4
+StateHealthService = 0.28
+StatePensions = 0.20
+StatePostService = 0.8
+StateSchools = 0.5
+StateWater  = 0.67
+statereligion = 0.4
+StemCells = 0.25
+Tasers = 0.5
+TechnologyGrants = 0.75
+TechnologyColleges = 0.5
+TearGas = 0.4
+TobaccoTax = 0.25
+TourismAdCampaign = 0.25
+UnemployedBenefit = 0.55
+UniversityGrants = 0.1
+WorkSafetyLaw = 0.27
+WelfareFraudDept = 0.2
+CapitalControls = 0.15
+Compulsoryworkfortheunemployed = 0.45
+EstatesSystem = 0.2
+TradeGuilds = 0.05
+NobleTaxBreaks = 0.15
+FaithSchoolSubsidies = 0.3
+Nationalanthemsinschool = 1
+RhinelandProtectorate = 0.3
+FrenchAlgeria = 0.55
+VenalOffices = 0.1
+Corvee = 0.05
+BostonAccordsMembership = 0.6
+EuropeanTradeCommunity = 0.8
+DiplomaticService = 1
+_prereq_has_coast = 1
+_prereq_mining_industry = 1
+_prereq_land_border = 1
+_prereq_wmd = 1
+_prereq_nuclear_tech = 1
+_prereq_indigenous = 1
+_prereq_sovereign_currency = 1
+_prereq_bourbon = 1
+minimumvotingage = 0.41
+voterid = 0.33
+
+[options]
+MULTIPLEPARTIES
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,34 @@
+[config]
+name  = bourbon
+guiname = "Bourbon France"
+description = "France, or the Kingdom of France was an absolute monarchy at the time of the Estates General in 1789, when new reforms were enacted to preserve the monarchy. It took another 50 years for France to become a semi-constitutional monarchy during the Springtime of the Peoples. Even then, constitutional rights were sometimes backrolled, including after the collapse of German Republic. As of today France has the same constitution that was written in 1857, with ammendements made since. Current King of France is Louis the XXII and a Prime Minister appointed by the King. France is a leading member of the European Trade Community and a member of Boston Accords."
+jobtitle = "Prime Minister"
+
+[stats]
+Population: = "89,314,281"
+Size: = "3,025,800 sq km"
+Religion: = "Catholicism 53%, None 24%, Islam 23%"
+Exports: = "Machinery, aircraft, vehicles, pharmaceuticals, plastics, cosmetics, beverages. "
+World Leader: = "Luxury goods, tourism, terror attacks per capita, exporting anti-communism."
+Member of: = "ETC, Boston Accords, G5"
+National obsessions: = "Gastronomy, Gossips about the royal family, wine, competitive cycling."
+
+[jobs]
+FOREIGNPOLICY = "Minister for Europe and Foreign Affairs"
+WELFARE = "Minister of Labour and Employment"
+ECONOMY = "Minister of Economy and Commerce"
+TAX = "Minister of the Treasury and Royal Estate"
+PUBLICSERVICES = "Minister of Health and Higher Education"
+LAWANDORDER = "Keeper of the Seals"
+TRANSPORT = "Minister of Transportation"
+
+
+
+
+
+
+
+
+
+
+

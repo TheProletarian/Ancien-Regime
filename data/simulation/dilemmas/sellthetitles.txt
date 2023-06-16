@@ -7,7 +7,7 @@ name = sellthetitles
 2 = EstatesSystem,0.25+(0.75*x)
 
 [option0]
-OnImplement = CreateGrudge(Wealthy,-0.2,0.9);CreateGrudge(MiddleIncome,0.1,0.9);CreateGrudge(Capitalist,0.2,0.9);CreateGrudge(GDP,0.02,0.9);
+OnImplement = CreateGrudge(Wealthy,-0.2,0.9);CreateGrudge(MiddleIncome,0.1,0.9);CreateGrudge(Capitalist,0.2,0.9);CreateGrudge(GDP,0.05,0.95);CreateGrudge(prestige,-0.05,0.98);
 
 [option1]
 OnImplement = CreateGrudge(Capitalist,-0.2,0.9);CreateGrudge(Wealthy,0.1,0.9);

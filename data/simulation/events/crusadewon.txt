@@ -1,0 +1,12 @@
+[config]
+Name = crusadewon
+Texture = crusadewon.png
+GUISound = DM4_Credit Rating Upgraded.wav
+OnImplement = CreateSilentGrudge(crusadefailed,-1,1);CreateSilentGrudge(crusadewon,-1,1);CreateGrudge(Prestige,0.15,0.98);CreateGrudge(StateOfJerusalem,0.3,1);CreateGrudge(CrusadeOnGoing,-1,0.98);
+
+[influences]
+0 = MilitarySpending,-0.3+(0.6*x)
+1 = MercenaryCompanies,0.05+(0.25*x)
+2 = CrusadeOnGoing,-1+(2*x)
+3 = CrusadeOnGoing,-1+(2*x)
+4 = _random_,0,0.38

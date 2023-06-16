@@ -5,13 +5,13 @@ name = revolution
 0 = _default_,-1.0+(0*x)
 1 = _random_,-0.12,0.32
 2 = AbsoluteMonarchy,0.25+(0.63*x)
-3 = _prereq_,AbsoluteMonarchy
+3 = _prereq_,NationalGuard
 4 = NationalGuard,0.15+(0.85*x)
 5 = NationalGuard,0.15+(0.85*x)
 6 = Stability,0-(0.5*x)
 
 [option0]
-OnImplement = CreateGrudge(AbsoluteMonarchy,-1,1);CreateGrudge(Stability,-0.2,0.95);CreateGrudge(EstatesSystem,-2,1);CreateGrudge(Serfdom,-2,1);CreateGrudge(TradeGuilds,-2,1);
+OnImplement = CreateGrudge(AbsoluteMonarchy,-1,1);CreateGrudge(Stability,-0.2,0.95);CreateGrudge(EstatesSystem,-2,1);CreateGrudge(Serfdom,-2,1);CreateGrudge(TradeGuilds,-2,1);CreateGrudge(prestige,-0.20,0.98);
 
 [option1]
-OnImplement = CreateGrudge(NationalGuard,-1,0.98);CreateGrudge(Liberal,-0.4,0.95);CreateGrudge(Stability,-0.2,0.95);
+OnImplement = CreateGrudge(NationalGuard,-1,0.98);CreateGrudge(Liberal,-0.4,0.95);CreateGrudge(Stability,-0.2,0.95);CreateGrudge(prestige,-0.10,0.98);
